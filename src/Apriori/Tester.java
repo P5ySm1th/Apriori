@@ -16,7 +16,7 @@ public class Tester {
     public static void main(String[] args) throws IOException {
         double min_support = 2;
         double min_conf = 0.7;
-        Map<String, ItemSet> map = Tool.importFileText("file/dataset3.txt", "UNICODE", "\t", min_support);
+        Map<String, ItemSet> map = Tool.importFileText("file/dataset.txt", "UNICODE", "\t", min_support);
         Apriori apri = new Apriori(map, min_support);
         Tool.printDetail(map, apri, min_support, min_conf);
         apri.apriorigen();
