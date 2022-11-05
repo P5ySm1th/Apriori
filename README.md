@@ -94,18 +94,11 @@ Luật kết hợp cho các phần tử xuất hiện thường xuyên
 |---------------------GROWTH ASSOCIATION--------------------|
 +-------------+------------------+------------+-------------+
 |Assocation   |No of transaction |Status                    |
-|2 --> 5       min_conf = 1.0     Strong Association        |
-|5 --> 2       min_conf = 1.0     Strong Association        |
 |23 --> 5      min_conf = 1.0     Strong Association        |
 |25 --> 3      min_conf = 0.667                             |
-|2 --> 3       min_conf = 0.667                             |
-|3 --> 2       min_conf = 0.667                             |
 |35 --> 2      min_conf = 1.0     Strong Association        |
-|3 --> 1       min_conf = 0.667                             |
-|5 --> 23      min_conf = 0.667                             |
-|5 --> 3       min_conf = 0.667                             |
-|3 --> 5       min_conf = 0.667                             |
-|3 --> 25      min_conf = 0.667                             |
-|1 --> 3       min_conf = 1.0     Strong Association        |
 |2 --> 35      min_conf = 0.667                             |
+|5 --> 23      min_conf = 0.667                             |
+|3 --> 25      min_conf = 0.667                             |
 +-------------+------------------+------------+-------------+
+```
