@@ -14,7 +14,7 @@ Thuật toán APRIORI được chia thành 2 phần
 
 CÔNG THỨC TÍNH
 ===
-1. Support (A) = (số lần 'A xuất hiện trong database) / (tổng số giao dịch)
+1. Support (A) = (số lần 'A' xuất hiện trong database)
 2. Confidence (A->B) = Support (A U B) / Support (A)
 
 DATASET 01
